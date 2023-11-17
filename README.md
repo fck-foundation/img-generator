@@ -1,4 +1,4 @@
-# Inage Generator API
+# Image Generator API
 
 This is a simple API that generates images with information about crypto currencies.
 
