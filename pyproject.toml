@@ -5,13 +5,12 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "widget-gen"
 version = "0.1.0"
-description = "Проект для генерации изображений токенов"
-authors = ["Your Name <you@example.com>"]
+description = "A project for token image generation"
+authors = ["Andrei Levkin <alevkin@gmail.com>"]
 packages = [{include = "WidgetGen", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-# Другие зависимости вашего проекта...
 aiofiles = "^23.2.1"
 aniso8601 = "^9.0.1"
 async-exit-stack = "^1.0.1"
@@ -52,7 +51,6 @@ pillow = "^10.1.0"
 [tool.poetry.dev-dependencies]
 black = "^21.4b0"
 isort = "^5.8.0"
-# Другие зависимости для разработки...
 
 [tool.black]
 line-length = 88
