@@ -32,3 +32,7 @@ docker run --rm --name imggenerator -p 8000:80 imggenerator
 ## Tests
 
 >TBD
+
+## Author
+
+> [Andrei](https://t.me/devopsman)
