@@ -49,17 +49,6 @@ def process_token_icon_path(token_icon_path):
     return token_icon
 
 
-def make_icon_circular(icon):
-    mask = Image.new("L", icon.size, 0)
-    draw = ImageDraw.Draw(mask)
-    draw.ellipse((0, 0) + icon.size, fill=255)
-
-    circular_icon = Image.new("RGBA", icon.size)
-    circular_icon.paste(icon, (0, 0), mask)
-
-    return circular_icon
-
-
 def create_circular_icon(icon_path):
     if is_url(icon_path):
         icon = download_image(icon_path)
